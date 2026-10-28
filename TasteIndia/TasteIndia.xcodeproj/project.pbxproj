@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EBBF7D48F65967BC9525DE /* TasteIndiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F061216CFBA58FE9434B8DA /* TasteIndiaApp.swift */; };
+		633DAF0A4D80594E8BA2EA15 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BF660AA25E5413A49359C1 /* AppDependencies.swift */; };
+		A116C9FD239354F3903E0FA1 /* Environment+MealRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763BAF1C1DC5E808DFC7A0B /* Environment+MealRepository.swift */; };
+		6C997122F9DA53A5913BB36B /* MealSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D3C9E68E835D5A83B653B0 /* MealSummary.swift */; };
+		55EE5AF2F94F557D92DF6894 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28433FEC18A4524EB19E4B71 /* MealDetail.swift */; };
+		5C5EE6D6CE395C4F90BD3BBB /* FilterCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF58BE654E5596A891792F /* FilterCriteria.swift */; };
+		E462FA1748B05AF4B88A313E /* LoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABDC7E15F215571B6659743 /* LoadState.swift */; };
+		96244330395552D9992948E1 /* IngredientOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A658B4A732455BABDFE8B3D /* IngredientOptions.swift */; };
+		A618C1D7B61A56519E507BB5 /* MealDBDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41CE75732A958EE9E3DB636 /* MealDBDTOs.swift */; };
+		24680AC088D7537CA751F61B /* MealMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A46BFE63A50B3B82C10C5 /* MealMapper.swift */; };
+		9E81403F47985F139ECE1F24 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B990B8FB3615061A54FCF16 /* NetworkClient.swift */; };
+		6918A466AAE05B1396A0C1A7 /* TheMealDBEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CEEE990FDA57E596742C4F /* TheMealDBEndpoints.swift */; };
+		33379E39994751AFAC7E6B10 /* MealDetailCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D89093D2D587193814BCC /* MealDetailCache.swift */; };
+		586C3190F2B5541AAF87A77F /* FavouritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FB8895CC575DA48CEDB39C /* FavouritesStore.swift */; };
+		22A2172CF3035302B68D9D2A /* MealRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D9CD40E2C56B38C488AC2 /* MealRepository.swift */; };
+		406CBDE18F025B1B82FA21A7 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD5614CE945D54B2F6F47C /* RecipesViewModel.swift */; };
+		70C1CF074AEA557EA2B6BD02 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E136D692745302B1E47F20 /* RecipesView.swift */; };
+		B6C5870AD4DE55B88CFCE2C6 /* RecipeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743824C72E35529B0492DA8 /* RecipeRowView.swift */; };
+		5E10EEDEABA15E4D82CA4875 /* FilterSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEA8325E35FD88AD817F6 /* FilterSheetView.swift */; };
+		D247A24BD3F854E8A7370828 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589171E63195093B2AEDEE1 /* RecipeDetailViewModel.swift */; };
+		1C34D71661025671B8A478BE /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A983DA9A1152A7BDB64A4E /* RecipeDetailView.swift */; };
+		B20332E7E1F151EDB5CD5B74 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6AA9A18655109A374C3E2 /* FavouritesViewModel.swift */; };
+		EC92E33428B15092B619F229 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31068FE54B1D5979B71BA136 /* FavouritesView.swift */; };
+		EC360A560AE959A8BA0C602F /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D9CA8F7875DF7BA201322 /* AppTheme.swift */; };
+		7628A6A6EF455271B3DBB834 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A8D7443C55025AC23221F /* SharedComponents.swift */; };
+		C89F706777D55A868093179E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B7F07B2CDD57D88B578357 /* Assets.xcassets */; };
+		B4D96CE72DF5515D9C9FE8F8 /* indian_meals.json in Resources */ = {isa = PBXBuildFile; fileRef = 47795CE24C9451CBB531BADC /* indian_meals.json */; };
+		994CFDC5FFA35ABFBB39B8B1 /* indian_meals_primary_empty.json in Resources */ = {isa = PBXBuildFile; fileRef = AA75ACDA8DA75DE19BFB54DD /* indian_meals_primary_empty.json */; };
+		560DDAFC898850C58774288E /* meal_detail_52795.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1C446597157988C7A393B /* meal_detail_52795.json */; };
+		ABC4A127B9485B4C877D9108 /* filter_category_chicken.json in Resources */ = {isa = PBXBuildFile; fileRef = D44CF90CCA4A557CA0014CDF /* filter_category_chicken.json */; };
+		1CA8411B319F5C5CA9594F59 /* filter_ingredient_chicken.json in Resources */ = {isa = PBXBuildFile; fileRef = A82CC8B78ED058CF8AEB64D8 /* filter_ingredient_chicken.json */; };
+		FBF07FF8B5715BDC882EA517 /* MealMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F71A267A45401AE22CA72 /* MealMapperTests.swift */; };
+		2F83B97E8E8E5F3394385283 /* MealFilterEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A058BD954A96516599C9FCFB /* MealFilterEngineTests.swift */; };
+		58FBC96B94015ECC8D4441DE /* RecipesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688FAB135ED57E79C6356D2 /* RecipesViewModelTests.swift */; };
+		5A3F0B0D25475238B4F55C02 /* FavouritesStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC417D80FED45343B5442B38 /* FavouritesStoreTests.swift */; };
+		3EB44B0332C25F03BCD066F4 /* TestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F4B126F6950CEB13C7B1E /* TestSupport.swift */; };
+		97BBCC51D4F8533F90B2C6A0 /* indian_meals.json in Resources */ = {isa = PBXBuildFile; fileRef = B63B164C3E0B5487B801116C /* indian_meals.json */; };
+		DA2AD223059B5E59B72515FF /* meal_detail_52795.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B5A5350954559BE87BA526D /* meal_detail_52795.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D5A541162B75535AB9CE59C /* TasteIndia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteIndia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB77ED900DCC56A5B0B7DB07 /* TasteIndiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteIndiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B7F07B2CDD57D88B578357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TasteIndia/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		0F061216CFBA58FE9434B8DA /* TasteIndiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/App/TasteIndiaApp.swift; sourceTree = SOURCE_ROOT; };
+		68BF660AA25E5413A49359C1 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/App/AppDependencies.swift; sourceTree = SOURCE_ROOT; };
+		E763BAF1C1DC5E808DFC7A0B /* Environment+MealRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/App/Environment+MealRepository.swift; sourceTree = SOURCE_ROOT; };
+		20D3C9E68E835D5A83B653B0 /* MealSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Domain/Models/MealSummary.swift; sourceTree = SOURCE_ROOT; };
+		28433FEC18A4524EB19E4B71 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Domain/Models/MealDetail.swift; sourceTree = SOURCE_ROOT; };
+		7BAF58BE654E5596A891792F /* FilterCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Domain/Models/FilterCriteria.swift; sourceTree = SOURCE_ROOT; };
+		9ABDC7E15F215571B6659743 /* LoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Domain/Models/LoadState.swift; sourceTree = SOURCE_ROOT; };
+		5A658B4A732455BABDFE8B3D /* IngredientOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Domain/Models/IngredientOptions.swift; sourceTree = SOURCE_ROOT; };
+		F41CE75732A958EE9E3DB636 /* MealDBDTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Data/DTOs/MealDBDTOs.swift; sourceTree = SOURCE_ROOT; };
+		DF4A46BFE63A50B3B82C10C5 /* MealMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Data/Mappers/MealMapper.swift; sourceTree = SOURCE_ROOT; };
+		8B990B8FB3615061A54FCF16 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Data/Network/NetworkClient.swift; sourceTree = SOURCE_ROOT; };
+		67CEEE990FDA57E596742C4F /* TheMealDBEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Data/Network/TheMealDBEndpoints.swift; sourceTree = SOURCE_ROOT; };
+		526D89093D2D587193814BCC /* MealDetailCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Data/Cache/MealDetailCache.swift; sourceTree = SOURCE_ROOT; };
+		08FB8895CC575DA48CEDB39C /* FavouritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Data/Persistence/FavouritesStore.swift; sourceTree = SOURCE_ROOT; };
+		536D9CD40E2C56B38C488AC2 /* MealRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Data/Repository/MealRepository.swift; sourceTree = SOURCE_ROOT; };
+		90CD5614CE945D54B2F6F47C /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Features/Recipes/RecipesViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F7E136D692745302B1E47F20 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Features/Recipes/RecipesView.swift; sourceTree = SOURCE_ROOT; };
+		0743824C72E35529B0492DA8 /* RecipeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Features/Recipes/RecipeRowView.swift; sourceTree = SOURCE_ROOT; };
+		E36BEA8325E35FD88AD817F6 /* FilterSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Features/Recipes/FilterSheetView.swift; sourceTree = SOURCE_ROOT; };
+		6589171E63195093B2AEDEE1 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Features/RecipeDetail/RecipeDetailViewModel.swift; sourceTree = SOURCE_ROOT; };
+		B1A983DA9A1152A7BDB64A4E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Features/RecipeDetail/RecipeDetailView.swift; sourceTree = SOURCE_ROOT; };
+		FCE6AA9A18655109A374C3E2 /* FavouritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Features/Favourites/FavouritesViewModel.swift; sourceTree = SOURCE_ROOT; };
+		31068FE54B1D5979B71BA136 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/Features/Favourites/FavouritesView.swift; sourceTree = SOURCE_ROOT; };
+		BA6D9CA8F7875DF7BA201322 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/UI/Theme/AppTheme.swift; sourceTree = SOURCE_ROOT; };
+		6C2A8D7443C55025AC23221F /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndia/UI/Components/SharedComponents.swift; sourceTree = SOURCE_ROOT; };
+		47795CE24C9451CBB531BADC /* indian_meals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TasteIndia/Resources/Fixtures/indian_meals.json; sourceTree = SOURCE_ROOT; };
+		AA75ACDA8DA75DE19BFB54DD /* indian_meals_primary_empty.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TasteIndia/Resources/Fixtures/indian_meals_primary_empty.json; sourceTree = SOURCE_ROOT; };
+		0FF1C446597157988C7A393B /* meal_detail_52795.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TasteIndia/Resources/Fixtures/meal_detail_52795.json; sourceTree = SOURCE_ROOT; };
+		D44CF90CCA4A557CA0014CDF /* filter_category_chicken.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TasteIndia/Resources/Fixtures/filter_category_chicken.json; sourceTree = SOURCE_ROOT; };
+		A82CC8B78ED058CF8AEB64D8 /* filter_ingredient_chicken.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TasteIndia/Resources/Fixtures/filter_ingredient_chicken.json; sourceTree = SOURCE_ROOT; };
+		101F71A267A45401AE22CA72 /* MealMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndiaTests/MealMapperTests.swift; sourceTree = SOURCE_ROOT; };
+		A058BD954A96516599C9FCFB /* MealFilterEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndiaTests/MealFilterEngineTests.swift; sourceTree = SOURCE_ROOT; };
+		D688FAB135ED57E79C6356D2 /* RecipesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndiaTests/RecipesViewModelTests.swift; sourceTree = SOURCE_ROOT; };
+		CC417D80FED45343B5442B38 /* FavouritesStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndiaTests/FavouritesStoreTests.swift; sourceTree = SOURCE_ROOT; };
+		339F4B126F6950CEB13C7B1E /* TestSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteIndiaTests/TestSupport.swift; sourceTree = SOURCE_ROOT; };
+		B63B164C3E0B5487B801116C /* indian_meals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TasteIndiaTests/Fixtures/indian_meals.json; sourceTree = SOURCE_ROOT; };
+		8B5A5350954559BE87BA526D /* meal_detail_52795.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TasteIndiaTests/Fixtures/meal_detail_52795.json; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE27585156445861AAEF67A7 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		F46C30B6398A55EFB214E996 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F06EE4709F17566FACBEE938 = {isa = PBXGroup; children = (F84B65BE209B5FFCB3CFFB39 /* TasteIndia */, 0BB7F813E9B958EF8568CABE /* TasteIndiaTests */, D9A9174B6FD550C69B4C0878 /* Products */); sourceTree = "<group>"; };
+		D9A9174B6FD550C69B4C0878 = {isa = PBXGroup; children = (2D5A541162B75535AB9CE59C /* TasteIndia.app */, AB77ED900DCC56A5B0B7DB07 /* TasteIndiaTests.xctest */); name = Products; sourceTree = "<group>"; };
+		F84B65BE209B5FFCB3CFFB39 = {isa = PBXGroup; children = (0F061216CFBA58FE9434B8DA, 68BF660AA25E5413A49359C1, E763BAF1C1DC5E808DFC7A0B, 20D3C9E68E835D5A83B653B0, 28433FEC18A4524EB19E4B71, 7BAF58BE654E5596A891792F, 9ABDC7E15F215571B6659743, 5A658B4A732455BABDFE8B3D, F41CE75732A958EE9E3DB636, DF4A46BFE63A50B3B82C10C5, 8B990B8FB3615061A54FCF16, 67CEEE990FDA57E596742C4F, 526D89093D2D587193814BCC, 08FB8895CC575DA48CEDB39C, 536D9CD40E2C56B38C488AC2, 90CD5614CE945D54B2F6F47C, F7E136D692745302B1E47F20, 0743824C72E35529B0492DA8, E36BEA8325E35FD88AD817F6, 6589171E63195093B2AEDEE1, B1A983DA9A1152A7BDB64A4E, FCE6AA9A18655109A374C3E2, 31068FE54B1D5979B71BA136, BA6D9CA8F7875DF7BA201322, 6C2A8D7443C55025AC23221F, 66B7F07B2CDD57D88B578357, 47795CE24C9451CBB531BADC, AA75ACDA8DA75DE19BFB54DD, 0FF1C446597157988C7A393B, D44CF90CCA4A557CA0014CDF, A82CC8B78ED058CF8AEB64D8); name = TasteIndia; sourceTree = "<group>"; };
+		0BB7F813E9B958EF8568CABE = {isa = PBXGroup; children = (101F71A267A45401AE22CA72, A058BD954A96516599C9FCFB, D688FAB135ED57E79C6356D2, CC417D80FED45343B5442B38, 339F4B126F6950CEB13C7B1E, B63B164C3E0B5487B801116C, 8B5A5350954559BE87BA526D); name = TasteIndiaTests; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1ED774F26B5728A231E28E = {isa = PBXNativeTarget; buildConfigurationList = 8A035467924054BDA6B9BFE3; buildPhases = (72095673FF3D58EBAA3F68EC, FE27585156445861AAEF67A7, 4BDAAC49DF2A5923A8DD7B4E); buildRules = (); dependencies = (); name = TasteIndia; productName = TasteIndia; productReference = 2D5A541162B75535AB9CE59C; productType = "com.apple.product-type.application"; };
+		F046DC58A7FF59C7B17E572E = {isa = PBXNativeTarget; buildConfigurationList = DDE57C0FFE8A5AD5B7C780C2; buildPhases = (5649FA4BF5BA5072A7FDBEDC, F46C30B6398A55EFB214E996, D14783CC3BDA5CA4A0466728); buildRules = (); dependencies = (C1BED5D2D9E55073AE33880B); name = TasteIndiaTests; productName = TasteIndiaTests; productReference = AB77ED900DCC56A5B0B7DB07; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D628296EA6BD57128CD1B32B = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1620; LastUpgradeCheck = 1620;}; buildConfigurationList = 616A7F46505456F095F29E1D; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = F06EE4709F17566FACBEE938; productRefGroup = D9A9174B6FD550C69B4C0878; projectDirPath = ""; projectRoot = ""; targets = (8E1ED774F26B5728A231E28E, F046DC58A7FF59C7B17E572E); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BDAAC49DF2A5923A8DD7B4E = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (C89F706777D55A868093179E, B4D96CE72DF5515D9C9FE8F8, 994CFDC5FFA35ABFBB39B8B1, 560DDAFC898850C58774288E, ABC4A127B9485B4C877D9108, 1CA8411B319F5C5CA9594F59); runOnlyForDeploymentPostprocessing = 0; };
+		D14783CC3BDA5CA4A0466728 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (97BBCC51D4F8533F90B2C6A0, DA2AD223059B5E59B72515FF); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72095673FF3D58EBAA3F68EC = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (75EBBF7D48F65967BC9525DE, 633DAF0A4D80594E8BA2EA15, A116C9FD239354F3903E0FA1, 6C997122F9DA53A5913BB36B, 55EE5AF2F94F557D92DF6894, 5C5EE6D6CE395C4F90BD3BBB, E462FA1748B05AF4B88A313E, 96244330395552D9992948E1, A618C1D7B61A56519E507BB5, 24680AC088D7537CA751F61B, 9E81403F47985F139ECE1F24, 6918A466AAE05B1396A0C1A7, 33379E39994751AFAC7E6B10, 586C3190F2B5541AAF87A77F, 22A2172CF3035302B68D9D2A, 406CBDE18F025B1B82FA21A7, 70C1CF074AEA557EA2B6BD02, B6C5870AD4DE55B88CFCE2C6, 5E10EEDEABA15E4D82CA4875, D247A24BD3F854E8A7370828, 1C34D71661025671B8A478BE, B20332E7E1F151EDB5CD5B74, EC92E33428B15092B619F229, EC360A560AE959A8BA0C602F, 7628A6A6EF455271B3DBB834); runOnlyForDeploymentPostprocessing = 0; };
+		5649FA4BF5BA5072A7FDBEDC = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (FBF07FF8B5715BDC882EA517, 2F83B97E8E8E5F3394385283, 58FBC96B94015ECC8D4441DE, 5A3F0B0D25475238B4F55C02, 3EB44B0332C25F03BCD066F4); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+		886A7F1341AA51C2B9BAFFC8 = {isa = PBXContainerItemProxy; containerPortal = D628296EA6BD57128CD1B32B; proxyType = 1; remoteGlobalIDString = 8E1ED774F26B5728A231E28E; remoteInfo = TasteIndia; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		C1BED5D2D9E55073AE33880B = {isa = PBXTargetDependency; target = 8E1ED774F26B5728A231E28E; targetProxy = 886A7F1341AA51C2B9BAFFC8; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B984A64576585EAA2CCAC2 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; ONLY_ACTIVE_ARCH = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		95C5FD2F13915CB3BED7FF88 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES;}; name = Release; };
+		8C7F11A65F9956CB989367BD /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = TasteIndia; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.tasteindia.app; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		74BF88EC4384509C9B763E57 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = TasteIndia; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.tasteindia.app; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
+		6FA4608195495C68A66205FA /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.tasteindia.app.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteIndia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasteIndia";}; name = Debug; };
+		282A767267B356D78B7B2A36 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.tasteindia.app.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteIndia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasteIndia";}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616A7F46505456F095F29E1D = {isa = XCConfigurationList; buildConfigurations = (10B984A64576585EAA2CCAC2 /* Debug */, 95C5FD2F13915CB3BED7FF88 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		8A035467924054BDA6B9BFE3 = {isa = XCConfigurationList; buildConfigurations = (8C7F11A65F9956CB989367BD /* Debug */, 74BF88EC4384509C9B763E57 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		DDE57C0FFE8A5AD5B7C780C2 = {isa = XCConfigurationList; buildConfigurations = (6FA4608195495C68A66205FA /* Debug */, 282A767267B356D78B7B2A36 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = D628296EA6BD57128CD1B32B /* Project object */;
+}
